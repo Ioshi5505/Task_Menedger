@@ -1,0 +1,50 @@
+/* Файл style.css */
+QWidget {
+    background-color: #333;
+    color: #EEE;
+}
+
+QLabel, QCalendarWidget {
+    font-size: 14px;
+    color: #AAA;
+}
+
+QLineEdit, QListWidget {
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #222;
+    color: #EEE;
+}
+
+QPushButton {
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #EEE;
+}
+
+QPushButton:hover {
+    background-color: #666;
+}
+
+QPushButton:pressed {
+    background-color: #777;
+}
+
+QCalendarWidget QToolButton {
+    color: #EEE;
+    font-size: 16px;
+    icon-size: 16px, 16px; /* Размер иконок */
+    background-color: #555;
+}
+
+QCalendarWidget QMenu {
+    background-color: #555;
+    color: #EEE;
+}
+
+QCalendarWidget QWidget#qt_calendar_navigationbar {
+    background-color: #444;
+}
